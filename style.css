@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+main{
+    width: 300px;
+    height: 400px;
+    background-color: purple;
+    border-radius: 5px;
+    box-shadow: 2px 2px ;
+}
+
+section{
+    width: 100%;
+    display: flex;
+ 
+
+}
+
+section input{
+    width: 100%;
+    padding: 24px;
+    text-align: right;
+}
+
+button{
+    width: 100%;
+    padding: 24px;
+    background-color: black;
+    color: #fff;
+}
+
+.d{
+    background-color: purple;
+}
+
+.que{
+    background-color: teal;
+}
